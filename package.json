@@ -1,0 +1,56 @@
+{
+  "name": "ztree-react",
+  "version": "1.2.0",
+  "description": "对jQuery zTree插件做react封装",
+  "scripts": {
+    "start": "node server.js",
+    "lint": "eslint src",
+    "build": "babel src/ztree-react.js --out-file lib/ztree-react.js",
+    "test": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arixse/ztree-react.git"
+  },
+  "main": "lib/ztree-react.js",
+  "keywords": [
+    "react",
+    "reactjs",
+    "component",
+    "zTree",
+    "tree",
+    "jquery",
+    "react-component",
+    "react-tree",
+    "tree-for-react"
+  ],
+  "author": "fus",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arixse/ztree-react/issues"
+  },
+  "homepage": "https://github.com/arixse/ztree-react",
+  "devDependencies": {
+    "babel-core": "^6.0.20",
+    "babel-eslint": "^7.1.1",
+    "babel-loader": "^6.0.1",
+    "babel-preset-es2015": "^6.0.15",
+    "babel-preset-react": "^6.0.15",
+    "babel-preset-stage-0": "^6.0.15",
+    "css-loader": "^0.26.1",
+    "eslint": "^3.12.2",
+    "eslint-plugin-react": "^6.8.0",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "react-hot-loader": "^1.3.0",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.12.2",
+    "webpack-dev-server": "^1.12.1",
+    "expose-loader": "^0.7.1"
+  },
+  "dependencies": {
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "jquery": "^2.2.1",
+    "ztree": "^3.5.24"
+  }
+}
