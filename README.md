@@ -1,6 +1,5 @@
 # ztree-react
 
-[![Build Status](https://travis-ci.org/arixse/ztree-for-react.svg?branch=master)](https://travis-ci.org/arixse/ztree-for-react)  ![DUB](https://img.shields.io/dub/l/vibe-d.svg)
 
 
 >对jQuery zTreeV3.x 插件做react封装，改自 ztree-for-react
